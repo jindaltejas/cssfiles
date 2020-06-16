@@ -1,0 +1,96 @@
+header, h2{
+	background-color: #d7f5ff;
+	font-size: 200%;
+	color: #000000;
+	text-align: center;
+	font-family: "Comic Sans MS", arial;
+	font-variant: small-caps;
+}
+
+h2{
+	font-size: 150%; 
+	font-style: italic;
+}
+
+nav{
+	text-align: center;
+	font-family: "Times New Roman", Arial;
+	font-size: 80%;
+	padding-bottom: 1%;
+}
+
+footer{
+	background:#45454585;
+	clear: both;
+}
+
+details{
+	font-style: italic;
+}
+
+summary{
+	font-style: normal;
+	font-family: verdana, arial;
+}
+
+p, ul{
+	font-family: verdana, arial;
+}
+
+body{
+	background-color: #c0c0c0;
+	margin: 1%;
+}
+
+.half{
+	display: inline-block;
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+
+.whole{
+	clear:both;
+}
+
+img{
+	width: 60px;
+	border: 3px solid #000000;
+	padding: 3px;
+}
+
+nav a{
+	font-weight: lighter;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding:1%;
+	text-decoration: none;
+	margin:0 auto;
+	display: inline-block;
+	width:22%;
+
+}
+
+a:hover{
+	background-color: #B3B3B3;
+	color: #0006CC;
+}
+
+a:focus{
+	background-color: #B3B3B3;
+	color: #0006CC;
+}
+
+a:active{
+	border: 5px outset #000000;
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+
+}
+
