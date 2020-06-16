@@ -1,0 +1,120 @@
+body section{
+	margin: 2%;
+	margin-left: 15%;
+	padding: 1%;
+	font-family: verdana, "Comic Sans MS", arial;
+}
+
+header{
+	text-align: center;
+	background-color: #696d0b;
+	background-image: url(../images/flywheel.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 2%;
+	padding: 1%;
+}
+
+header h1{
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 150%;
+}
+
+header nav a{
+	font-family: helvetica, arial;
+	font-weight: bold;
+	display: inline-block;
+	width: 16%;
+	font-size: 95%;
+	text-decoration: none;
+	border: 1px solid none;
+	padding: 1.5%;
+	margin:2%;
+	color: #000000;
+	background-color: #dcdbdb75;
+	border-radius: 5px;
+}
+
+nav a:hover{
+	color: #1c317e;
+	background-color: #FFFFFF;
+}
+
+.active{
+	background-color: #FFFFFF;
+}
+
+h2{
+	font-family: "Times new roman", arial;
+	font-size: 200%;
+}
+
+.left{
+	background-color: #696d0b;
+	margin-left: 2%;
+	width: 15%;
+	float: left;
+	height: 100vh;
+	padding: 1% 0; 
+}
+
+.left img{
+	border: solid 2px #000000; 
+	width: 80%;
+	margin: 10%;
+}
+
+.right{
+	width: 68%;
+	padding-left: 2%;
+	margin-left: 20%;
+}
+
+table,th,td{
+
+	border: 1px solid #ffffff;
+}
+table{
+	margin: 0 auto;
+	table-layout: auto;
+	width: 800px;
+	font-family: verdana, "Times New Roman", sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	text-align: center;
+}
+th{
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	border-bottom: 3px solid #b7ee02;
+	height: 40px; 
+	background: linear-gradient(#6e8416,#435400);
+	color: #ffffff;
+}
+
+td{
+	color: #000000;
+	text-shadow: 0px 0px 1.5px #767613;
+	font-style: italic;
+	font-size: smaller;
+}
+tr td{
+	background-color:#e6ffc8;
+}
+
+tr{
+		opacity: 0.7;
+
+}
+tr.header{
+	opacity: 1;
+}
+
+tr:hover{
+	opacity: 1;
+}
+th:first-child, td:first-child{
+	text-align: left;
+	padding: 1%;
+}
