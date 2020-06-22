@@ -1,4 +1,4 @@
-body section, #counter{
+body section{
 	margin: 2%;
 	margin-left: 15%;
 	padding: 1%;
@@ -117,4 +117,8 @@ tr:hover{
 th:first-child, td:first-child{
 	text-align: left;
 	padding: 1%;
+}
+
+#counter{
+	margin:0 auto;
 }
